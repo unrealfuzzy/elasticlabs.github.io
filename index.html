@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elastic Labs | Game & Mobile App Development Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <noscript>
+    <style>
+      nav .menu-toggle {
+        display: none !important;
+      }
+
+      nav .nav-links {
+        position: static !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        transform: none !important;
+        box-shadow: none !important;
+        display: flex !important;
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#top" class="brand" aria-label="Elastic Labs home">
+        <span class="brand-mark" aria-hidden="true">EL</span>
+        <span class="brand-name">Elastic Labs</span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul id="nav-menu" class="nav-links" aria-hidden="true">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Game & Mobile App Studio</p>
+          <h1 id="hero-title">We build playful, performant experiences.</h1>
+          <p class="lead">Elastic Labs partners with founders and brands to create unforgettable games and mobile apps that scale across platforms.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Start a project</a>
+            <a class="btn btn-secondary" href="#services">See what we do</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card__badge">Featured Release</div>
+          <h2>Nova Drift: Mobile</h2>
+          <p>Fast-paced roguelite action tailored for touch, crafted in record time with Elastic Labs.</p>
+          <ul>
+            <li>Cross-platform launch</li>
+            <li>Realtime analytics</li>
+            <li>LiveOps ready</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--about">
+      <div class="container two-column">
+        <div>
+          <h2>We help ideas stretch into standout products.</h2>
+        </div>
+        <div class="section-body">
+          <p>Elastic Labs is a multidisciplinary development studio delivering production-ready games and mobile apps. From concept validation to polished release, our team blends design, engineering, and storytelling to bring ambitious ideas to life.</p>
+          <p>Our remote-first studio is built for partnership. We integrate with your team, guide strategy, and stay agile so your product can keep evolving after launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section--services" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title">What we build</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Game Development</h3>
+            <p>Full-cycle production for premium and free-to-play titles, with rapid prototyping, multiplayer support, and live operations.</p>
+            <ul>
+              <li>Unity &amp; Unreal expertise</li>
+              <li>Console, PC, and mobile</li>
+              <li>Monetization &amp; LiveOps</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Mobile Apps</h3>
+            <p>Robust iOS and Android apps with pixel-perfect interfaces, native performance, and scalable cloud backends.</p>
+            <ul>
+              <li>Native &amp; cross-platform</li>
+              <li>Product design systems</li>
+              <li>App Store &amp; Play Store launch</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Product Strategy</h3>
+            <p>Research-driven roadmaps, rapid UX testing, and technical planning to de-risk investment and accelerate delivery.</p>
+            <ul>
+              <li>Workshops &amp; co-creation</li>
+              <li>Market validation</li>
+              <li>Lifecycle analytics</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section--process" aria-labelledby="process-title">
+      <div class="container">
+        <h2 id="process-title">How we partner</h2>
+        <div class="timeline">
+          <div class="timeline-step">
+            <span class="step-number">01</span>
+            <h3>Discover &amp; Align</h3>
+            <p>We audit goals, audience, and tech to shape a collaborative roadmap with measurable outcomes.</p>
+          </div>
+          <div class="timeline-step">
+            <span class="step-number">02</span>
+            <h3>Build &amp; Iterate</h3>
+            <p>Cross-functional squads deliver in tight loops, continuously testing, tuning, and refining.</p>
+          </div>
+          <div class="timeline-step">
+            <span class="step-number">03</span>
+            <h3>Launch &amp; Support</h3>
+            <p>We steward the release, implement analytics, and provide ongoing LiveOps or maintenance as needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="contact">
+      <div class="container cta">
+        <div>
+          <h2>Let’s build something unforgettable.</h2>
+          <p>Tell us about your next game or mobile app and we’ll get in touch within two business days.</p>
+        </div>
+        <a class="btn btn-primary" href="mailto:hello@elasticlabs.studio">hello@elasticlabs.studio</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Elastic Labs. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:hello@elasticlabs.studio">Contact</a>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
